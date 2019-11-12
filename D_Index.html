@@ -1,0 +1,37 @@
+<body>
+    <div class="container">
+    <h1>Vechicle Registration Renewal</h1>
+   
+    <h2 id="VRR"></h2>
+    
+    <label for="name" class="Information"> First Name</label>
+    <input id="F_N" type="text">
+    </div>
+    <div> <label for="name" class="Information"> Last Name</label>
+        <input id="L_N" type="text">
+    </div>
+   <div> <label for="name" class="Information"> Age </label>
+        <input id="age" type="number"></div>
+   <div>
+    <p><button id = "button_2" display= "inline" onclick=App.handlesetword()  > SUBMIT </p>
+        <output id = "output" typr="text" ></output>
+   </div>
+   <div>
+    <p><button id = "button_2" onclick=window.alert(App.handlegetword())  >Get Details</p>
+     <p>   <output> <name="output" for="" ></name></output> </p>
+     <script> var getword_d = "<%=result%>"; </script>
+   </div>
+
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/web3.min.js"></script>
+   <script src="js/truffle-contract.js"></script>
+   <script src="js/app.js"></script>
+
+   
+
+     </div>
+    </body>

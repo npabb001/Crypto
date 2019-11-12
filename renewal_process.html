@@ -1,0 +1,31 @@
+<body>
+    <div class="container">
+    <h1>Vechicle Registration Renewal</h1>
+   
+    <h2 id="VRR"></h2>
+    <div>
+    <label for="VIN Number" class="Information"> Enter VIN number </label>
+    <input id="VIN_N" type="number">   
+    </div>
+    <div>
+    <label for="Extension period" class="Information"> Renewal Extension Period (enter the New Date of Expiry) </label>
+    <input id="Y" type="text">
+    </div>
+    <div> <label for="name" display="inline" class="Information"> Charge-20ETH (please provide your consent by entering yes) </label>
+        <input id="charge" type="text">
+    </div>
+    <div><button button id = "button" display= "inline" onclick= "App.handlesetword()"  > SUBMIT </div  >
+   <div><button  button id = "button1" display= "inline" onclick= "App.handlegetword()"  > Get Details </div>
+   
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/web3.min.js"></script>
+   <script src="js/truffle-contract.js"></script>
+   <script src="js/app.js"></script>
+
+   
+
+     </div>
+    </body>
